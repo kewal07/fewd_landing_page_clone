@@ -65,6 +65,9 @@ div {
 }
 .top-navigation{
 	background-color:#fff;
+	position:fixed;
+	width:100%;
+	z-index:9999;
 }
 .top-navigation > content{
 	width:970px;
@@ -150,15 +153,16 @@ button:hover{
 
 }
 .description{
-   width: 75%;
+   width: 100%;
   margin: 0 auto;
   margin-top:2em;
 }
-.desc1,.desc2,.desc3{
-	float:left;
-	margin-left:11em;
+.desc{
+	width:33.33%;
+	display:inline-block;
+	margin-right:-4px;
 }
-.desc1 p,.desc2 p,.desc3 p{
+.desc p{
 	margin-top:1em;
 	text-align: center;
 	font-size: 1.5em;
@@ -166,11 +170,4 @@ button:hover{
 }
 .mainContent{
 	background-color:#fff;
-}
-.clearfix:after{
-	 content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
 }
