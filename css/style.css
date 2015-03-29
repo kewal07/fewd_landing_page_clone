@@ -114,22 +114,25 @@ ul.links > li{
 	font-size:1.5em;
 }
 .button{
-  	  width: 11em;
+	width:11em;
+	margin: 0 auto;
+}
+button{
+	 width: 11em;
   background-color: #f15a29;
   border-color: #f15a29;
   border-radius: 4px;
-  color: white;
   padding: 0.5em 2em;
-  font-size: 1.125em;
-  margin: 0 auto;
   margin-top: 2em;
-}
-.button button{
-	background-color: #F15A2A;
 	text-align: center;
   text-shadow: none;
   border-style: none;
   color: #fff;
   /* width: 100%; */
   font-size: 1em;
+}
+button:hover{
+	background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
 }
