@@ -1,3 +1,14 @@
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,6 +36,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 ol, ul {
 	list-style: none;
@@ -40,4 +56,80 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+.top-navigation{
+	background-color:#fff;
+}
+.top-navigation > content{
+	width:970px;
+	height: 70px;
+	margin:0 auto;
+}
+.content{
+	padding:0 350px;
+}
+.content img{
+	height: 70px;
+}
+ul.links{
+	float:right;
+	margin:30px 150px;
+}
+ul.links > li{
+	display:inline-block;
+	margin-left:1.5em;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.banner{
+  background: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  /* height: 62em; */
+  height: 45em;
+}
+.banner .text{
+	text-align: center;
+	margin-top: 15em;
+	color:#fff;
+}
+.text h1{
+	margin-bottom:25px;
+	font-size:3em;
+}
+.text h2{
+	font-size:1.5em;
+}
+.button{
+  	  width: 11em;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  border-radius: 4px;
+  color: white;
+  padding: 0.5em 2em;
+  font-size: 1.125em;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+.button button{
+	background-color: #F15A2A;
+	text-align: center;
+  text-shadow: none;
+  border-style: none;
+  color: #fff;
+  /* width: 100%; */
+  font-size: 1em;
 }
