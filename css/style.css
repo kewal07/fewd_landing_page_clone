@@ -60,9 +60,9 @@ table {
 body {
     background-color: #fff;
 }
-div {
-    border: 1px solid Chocolate;
-}
+/*div {
+    border: 0px solid transparent;
+}*/
 .top-navigation{
 	background-color:#fff;
 	position:fixed;
@@ -111,7 +111,7 @@ ul.links > li{
 .text h1{
 	margin-bottom:25px;
 	font-size:3em;
-	margin-top:5em;
+	padding-top:5em;
 }
 .text h2{
 	font-size:1.5em;
@@ -153,7 +153,7 @@ button:hover{
 
 }
 .description{
-   width: 100%;
+   width: 99%;
   margin: 0 auto;
   margin-top:2em;
 }
@@ -170,4 +170,46 @@ button:hover{
 }
 .mainContent{
 	background-color:#fff;
+	margin-bottom:8em;
+}
+.footer{
+	padding-top:2em;
+	padding-bottom:9em;
+}
+.footer p{
+	text-align:center;
+	color: #000;
+}
+.footerContent{
+	width: 970px;
+  	margin: 0 auto;
+	border-top: 2px solid #eaebec;
+	padding-top: 1em;
+}
+p.copyright{
+	color: #838994;
+	font-weight: 300;
+}
+.footerContent .icons{
+	margin: 0 auto;
+  	width: 17%;
+}
+.footerContent .icons > li{
+	  border-radius: 1.25em;
+	  width: 2.5em;
+	  height: 2.5em;
+	  display: inline-block;
+	  margin: 1.25em 5px;
+	  border: 1px solid #eaebec;
+	  padding: 0.625em 0;
+	  text-align: center;
+}
+.footerContent .facebook{
+	color:#4c66a4;
+}
+.footerContent .twitter{
+	color:#55acee;
+}
+.footerContent .instagram{
+	color:#3f729b
 }
